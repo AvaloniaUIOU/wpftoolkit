@@ -11,6 +11,7 @@
     <ItemGroup>
         <Resource Include="**/*.png"/>
         <Resource Include="**/*.cur"/>
+        <Resource Include="**/*.ico"/>
         <EmbeddedResource Include="**/*.bmp" />
     </ItemGroup>
 </Project>
