@@ -1,0 +1,16 @@
+<Project>
+    <PropertyGroup>
+        <PublicSign>True</PublicSign>
+        <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)/public.snk</AssemblyOriginatorKeyFile>
+        <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+        <SignAssembly>true</SignAssembly>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <EnableWindowsTargeting>true</EnableWindowsTargeting>
+        <UseWpf>true</UseWpf>
+    </PropertyGroup>
+    <ItemGroup>
+        <Resource Include="**/*.png"/>
+        <Resource Include="**/*.cur"/>
+        <EmbeddedResource Include="**/*.bmp" />
+    </ItemGroup>
+</Project>
